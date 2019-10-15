@@ -61,7 +61,10 @@ def better_than_baseline(SSE, BASELINE_SSE):
     return False
 
 
-#def model_significance(ols_model):
+def model_significance(ols_model):
+    print(ols_model.summary())
+
+
     
     
 
@@ -91,3 +94,17 @@ plot_residuals('total_bill', 'tip', bill)
 
 
 
+
+
+
+
+
+
+
+
+model_significance(regr)
+
+
+
+a = input('')
+error_me = me_error
