@@ -1,6 +1,5 @@
 import requests
 import bs4
-import os_uwu
 import os
 import pandas as pd
 from pprint import pprint
